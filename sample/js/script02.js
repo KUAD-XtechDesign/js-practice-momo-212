@@ -2,8 +2,8 @@ $(function(){
 
     let txt1 = "Good morning!";
     let txt2 = "How are you?";
-    let num1 = 20;
-    let num2 = 32;
+    let num1 = 35;
+    let num2 = 18;
 
     $("#button01").on("click",function(){
       $("#content").text("Hello");
