@@ -1,12 +1,12 @@
 $(function(){
 
-    let txt1 = "Good morning!";
-    let txt2 = "How are you?";
-    let num1 = 35;
-    let num2 = 18;
+    let txt1 = "おはようございます!";
+    let txt2 = "お元気ですか?";
+    let num1 = 20;
+    let num2 = 32;
 
     $("#button01").on("click",function(){
-      $("#content").append("Hello");
+      $("#content").append("こんにちは");
     })
 
     $("#button02").on("click",function(){
