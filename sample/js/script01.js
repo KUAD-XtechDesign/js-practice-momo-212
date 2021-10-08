@@ -1,15 +1,15 @@
 $(function(){
 
     $("#button01").on("click",function(){
-        $(".back-red").slideUp();
+        $(".back-red").hide();
     })
 
     $("#button02").on("click",function(){
-        $(".back-blue").slideUp();
+        $(".back-blue").hide();
     })
 
     $("#button03").on("click",function(){
-        $("#box03,#box07,#box08").slideUp();
+        $("#box03,#box07,#box08").hide();
     })
 
     $("#button04").on("click",function(){
